@@ -19,7 +19,7 @@ const styles = {
   }
 }
 
-class Board extends Component {
+export class Board extends Component {
   static propTypes = {
     id: PropTypes.string.isRequired,
     currentBoard: PropTypes.object,

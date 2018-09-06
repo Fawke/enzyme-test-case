@@ -20,7 +20,6 @@ export default class Lists extends Component {
   static propTypes = {
     data: PropTypes.object.isRequired,
     onCreateCard: PropTypes.func.isRequired,
-    onCardUpdate: PropTypes.func.isRequired,
     onListUpdate: PropTypes.func.isRequired
   };
 
